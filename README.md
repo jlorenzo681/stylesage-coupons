@@ -23,6 +23,9 @@ $ cd stylesage-coupons
 # Install dependencies
 $ pip install
 
+# Download Spacy english lang
+$ python -m spacy download en_core_web_sm
+
 # Run the app
 $ streamlit run src/coupons.py
 ```
@@ -43,6 +46,9 @@ $ poetry install
 
 # Enter venv
 $ poetry shell
+
+# Download Spacy english lang
+$ python3 -m spacy download en_core_web_sm
 
 # Run the app
 $ streamlit run src/coupons.py
